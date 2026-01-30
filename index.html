@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steps to Miles Calculator - Free Step Counter Converter</title>
+  <meta name="description" content="Free steps to miles calculator. Convert your daily steps to miles or kilometers. Calculate how many miles is 10,000 steps based on your height and stride length.">
+  <meta property="og:title" content="Steps to Miles Calculator - Free Step Counter Converter">
+  <meta property="og:description" content="Free steps to miles calculator. Convert your daily steps to miles or kilometers based on your height and stride length.">
+  <meta property="og:image" content="https://stepstomilescalculator.org/assets/images/og/og-image.png">
+  <meta property="og:url" content="https://stepstomilescalculator.org/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Steps to Miles Calculator">
+  <meta name="twitter:description" content="Free steps to miles calculator. Convert your daily steps to miles or kilometers.">
+  <meta name="twitter:image" content="https://stepstomilescalculator.org/assets/images/og/og-image.png">
+  <link rel="canonical" href="https://stepstomilescalculator.org/">
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://stepstomilescalculator.org/#website",
+        "name": "Steps to Miles Calculator",
+        "url": "https://stepstomilescalculator.org/",
+        "description": "Free steps to miles calculator. Convert your daily steps to miles or kilometers based on your height and stride length.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://stepstomilescalculator.org/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://stepstomilescalculator.org/#webapp",
+        "name": "Steps to Miles Calculator",
+        "description": "Convert steps to miles or kilometers based on your height and stride length. Calculate how many miles is 10,000 steps with personalized results.",
+        "url": "https://stepstomilescalculator.org/",
+        "applicationCategory": "CalculatorApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Steps to miles conversion",
+          "Miles to steps conversion",
+          "Steps per mile calculator",
+          "Height-based stride estimation",
+          "Custom stride length input",
+          "Walking and running modes",
+          "Metric and imperial units",
+          "10,000-step goal progress tracking",
+          "Calorie burn estimation",
+          "Time estimation"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://stepstomilescalculator.org/#organization",
+        "name": "Steps to Miles Calculator",
+        "url": "https://stepstomilescalculator.org/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://stepstomilescalculator.org/assets/images/favicon/android-chrome-512x512.png",
+          "width": 512,
+          "height": 512
+        },
+        "sameAs": []
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://stepstomilescalculator.org/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://stepstomilescalculator.org/"
+          }
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "@id": "https://stepstomilescalculator.org/#howto",
+        "name": "How to Use the Steps to Miles Calculator",
+        "description": "Step-by-step guide to converting your step count to distance using this calculator.",
+        "tool": {
+          "@type": "HowToTool",
+          "name": "Web browser"
+        },
+        "supply": [
+          {
+            "@type": "HowToSupply",
+            "name": "Your step count from a fitness tracker or pedometer"
+          },
+          {
+            "@type": "HowToSupply",
+            "name": "Your height (or known stride length)"
+          }
+        ],
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Enter your step count",
+            "text": "Type your total steps in the input field, or use the quick-select buttons for common values like 5,000, 10,000, 13,000, 15,000, or 20,000 steps."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Select your activity type",
+            "text": "Choose Walking for regular walking, hiking, or casual movement. Choose Running for jogging or running activities."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Choose stride length method",
+            "text": "Select 'Estimate from height' for automatic calculation, or 'Enter custom stride' if you've measured your actual stride length."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "Enter your height or stride",
+            "text": "If using height estimation, enter your height in feet and inches. If using custom stride, enter your measured stride length in inches or centimeters."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 5,
+            "name": "Click Calculate Miles",
+            "text": "View your results including distance in miles and kilometers, estimated calories burned, approximate time spent, and progress toward the 10,000-step goal."
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://stepstomilescalculator.org/#examples",
+        "name": "Steps to Miles Calculator Examples",
+        "description": "Real-world examples showing how different people use the steps to miles calculator.",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Daily Fitness Tracking",
+            "description": "A 5'4\" office worker tracks 8,000 daily steps, which equals approximately 3.35 miles."
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Marathon Training",
+            "description": "A 6'2\" runner completes a 5-mile training run, which requires approximately 8,232 steps."
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "10,000-Step Goal",
+            "description": "A 5'8\" person reaches 10,000 steps, covering approximately 4.45 miles."
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Commute Distance",
+            "description": "A 5'10\" commuter walks 3,000 steps to and from work, covering approximately 1.38 miles."
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Senior Fitness",
+            "description": "A 5'2\" retiree walks 6,000 steps daily, covering approximately 2.44 miles."
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://stepstomilescalculator.org/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How many miles is 10,000 steps?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For most people, 10,000 steps equals approximately 4 to 5 miles when walking. The exact distance depends on your stride length, which varies by height. A 5'4\" person walks about 4.2 miles in 10,000 steps, while a 6'0\" person covers about 4.7 miles."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many steps are in a mile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "On average, there are about 2,000-2,500 steps per mile when walking, and 1,400-1,700 steps per mile when running. Your exact number depends on your stride length, which is determined by your height and gait."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I measure my stride length?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Walk 20 steps at your normal pace on flat ground, measure the total distance from your starting point to your ending point, then divide by 20. This gives your average stride length. Alternatively, estimate your stride from your height—walking stride is typically about 41.5% of height."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does activity type (walking vs running) matter?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Running typically results in a stride about 25% longer than walking. This is because running includes a flight phase where both feet leave the ground, allowing for greater hip extension and longer steps. The same number of steps covers more distance when running."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is 10,000 steps a day enough for health benefits?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "10,000 steps (about 4-5 miles) is a well-known fitness target, but research shows health benefits increase up to about 7,500-10,000 steps daily, with diminishing returns beyond that. For older adults, even 4,000-6,000 steps provides significant health benefits."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How accurate is this calculator compared to my fitness tracker?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This calculator and fitness trackers use similar methods—both estimate distance from step count using stride length. Differences of 5-10% are normal due to different stride estimates, varying stride with speed and terrain, and trackers missing some steps or counting extra movements."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What formula does this calculator use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The calculator uses the formula: Miles = (Steps × Stride Length in Feet) ÷ 5,280. Stride length is estimated as 41.5% of height for walking and 52% of height for running—percentages based on biomechanical research on human gait."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I consult a doctor before using step goals for fitness?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This calculator provides estimates for informational purposes only and is not medical advice. If you're starting a new fitness program, have existing health conditions, or have concerns about exercise, consult with a healthcare professional before setting activity goals."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does height affect steps per mile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Taller people have longer legs and therefore longer strides, meaning they take fewer steps to cover the same distance. For example, a 5'0\" person takes about 2,543 steps per mile walking, while a 6'4\" person takes only about 2,004 steps per mile—a difference of over 500 steps."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use this calculator for treadmill walking?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, this calculator works well for treadmill walking. Step-based calculations are often more reliable than GPS for indoor exercise since GPS cannot track stationary position changes. Your stride length on a treadmill is typically similar to outdoor walking on flat ground."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="header"><div class="container"><div class="header-inner">
+    <a href="/" class="logo"><svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 16v-2.38C4 11.5 2.97 9.5 3 8c.03-1.5.97-3 3-3 2 0 4 1.5 4 3.5 0 1-.5 2-1 3l-1 2M10 16v-2.38c0-2.12-1.03-4.12-1-5.62.03-1.5.97-3 3-3 2 0 4 1.5 4 3.5 0 1-.5 2-1 3l-1 2M16 16v-2.38c0-2.12-1.03-4.12-1-5.62.03-1.5.97-3 3-3 2 0 4 1.5 4 3.5 0 1-.5 2-1 3l-1 2"/><line x1="4" y1="22" x2="20" y2="22"/></svg><span>Steps to Miles</span></a>
+    <nav class="nav-desktop"><a href="/" class="active">Calculator</a><a href="/blog/">Guides</a><a href="/about/">About</a><a href="/contact/">Contact</a></nav>
+    <button class="nav-toggle" aria-label="Menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+  </div><nav class="nav-mobile"><a href="/">Calculator</a><a href="/blog/">Guides</a><a href="/about/">About</a><a href="/contact/">Contact</a></nav></div></header>
+
+  <main><div class="container">
+    <h1>Steps to Miles Calculator</h1>
+    <p class="intro-text">Convert your daily steps to miles or kilometers with our free, instant calculator. Whether you're tracking fitness goals, verifying your pedometer's accuracy, or simply curious about <a href="/blog/10000-steps-to-miles/">how far 10,000 steps</a> actually is, this tool provides personalized distance calculations based on your height and <a href="/blog/average-stride-length-by-height/">stride length</a>. No sign-up required—all calculations happen instantly in your browser.</p>
+
+    <!-- Key Takeaways Box -->
+    <div style="background:var(--primary-bg);border-left:4px solid var(--primary);padding:1.25rem 1.5rem;border-radius:var(--radius-md);margin:1.5rem 0">
+      <h2 style="font-size:1.1rem;margin:0 0 0.75rem 0;color:var(--primary)">Quick Facts: Steps to Miles</h2>
+      <ul style="margin:0;padding-left:1.25rem">
+        <li><strong>10,000 steps</strong> ≈ 4-5 miles (varies by height)</li>
+        <li><strong>Average walking:</strong> 2,000-2,500 steps per mile</li>
+        <li><strong>Average running:</strong> 1,400-1,700 steps per mile</li>
+        <li><strong>Walking stride</strong> = height × 0.415 (41.5% of your height)</li>
+        <li><strong>Running stride</strong> = height × 0.52 (52% of your height)</li>
+        <li><strong>Taller = fewer steps</strong> per mile due to longer stride</li>
+      </ul>
+    </div>
+
+    <div class="calculator-card">
+      <div class="calc-tabs">
+        <button class="calc-tab active" data-tab="steps"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 16L4 10M8 16L8 6M12 16L12 12M16 16L16 8M20 16L20 4"/></svg><span class="calc-tab-label">Steps → Miles</span></button>
+        <button class="calc-tab" data-tab="miles"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12H3M21 12L15 6M21 12L15 18"/></svg><span class="calc-tab-label">Miles → Steps</span></button>
+        <button class="calc-tab" data-tab="spm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg><span class="calc-tab-label">Steps per Mile</span></button>
+      </div>
+      
+      <!-- STEPS TO MILES PANEL -->
+      <div id="panel-steps" class="calc-panel active">
+        <div class="form-grid">
+          <div class="form-group">
+            <label class="form-label">Quick Select Steps</label>
+            <div class="quick-presets">
+              <button type="button" class="preset-btn" data-value="5000">5,000</button>
+              <button type="button" class="preset-btn active" data-value="10000">10,000</button>
+              <button type="button" class="preset-btn" data-value="13000">13,000</button>
+              <button type="button" class="preset-btn" data-value="15000">15,000</button>
+              <button type="button" class="preset-btn" data-value="20000">20,000</button>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label class="form-label">Number of Steps</label>
+            <input type="number" id="steps-input" class="form-input steps-input" value="10000" min="0" step="100">
+          </div>
+          
+          <div class="form-group">
+            <label class="form-label">Activity Type</label>
+            <div class="radio-group">
+              <label class="radio-option"><input type="radio" name="activity" value="walking" checked><span>🚶 Walking</span></label>
+              <label class="radio-option"><input type="radio" name="activity" value="running"><span>🏃 Running</span></label>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label class="form-label">Stride Length Method</label>
+            <div class="radio-group">
+              <label class="radio-option"><input type="radio" name="stride-method" value="height" checked><span>Estimate from height</span></label>
+              <label class="radio-option"><input type="radio" name="stride-method" value="custom"><span>Enter custom stride</span></label>
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Your Height</label>
+              <div class="input-group">
+                <input type="number" id="height-feet" class="form-input" value="5" min="3" max="8" style="width:60px">
+                <span style="padding:0 0.25rem">ft</span>
+                <input type="number" id="height-inches" class="form-input" value="6" min="0" max="11" style="width:60px">
+                <span style="padding:0 0.25rem">in</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Custom Stride (optional)</label>
+              <div class="input-group">
+                <input type="number" id="custom-stride" class="form-input" placeholder="26" step="0.5">
+                <select id="stride-unit" class="form-select" style="width:80px">
+                  <option value="inches">in</option>
+                  <option value="cm">cm</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <button class="calculate-btn" id="calc-steps-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          Calculate Miles
+        </button>
+        
+        <div class="results-section" id="steps-results">
+          <div class="result-primary">
+            <div class="result-label">Distance Walked</div>
+            <div class="result-value"><span id="miles-value">--</span> <span class="result-unit">miles</span></div>
+            <div class="result-sublabel" id="km-value">-- km</div>
+          </div>
+
+          <div class="progress-container">
+            <div class="progress-header">
+              <span class="progress-title">Progress to 10,000 Steps Goal</span>
+              <span class="progress-value" id="goal-percent">--%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" id="goal-fill" style="width:0%"></div>
+            </div>
+            <div class="progress-note" id="goal-note">Enter your steps to see progress</div>
+          </div>
+
+          <!-- Key Results Summary Table -->
+          <div class="results-table-section">
+            <h4><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>Your Key Results</h4>
+            <table class="results-summary-table">
+              <tbody>
+                <tr><td>Distance</td><td id="summary-distance">--</td></tr>
+                <tr><td>Steps Taken</td><td id="summary-steps">--</td></tr>
+                <tr><td>Estimated Calories</td><td id="summary-calories">--</td></tr>
+                <tr><td>Estimated Time</td><td id="summary-time">--</td></tr>
+                <tr><td>Steps per Mile</td><td id="summary-spm">--</td></tr>
+                <tr><td>Your Stride Length</td><td id="summary-stride">--</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Input Summary -->
+          <div class="input-summary">
+            <div class="input-summary-title">Your Inputs</div>
+            <div class="input-summary-grid">
+              <div class="input-summary-item"><span>Steps:</span><span id="input-steps-display">--</span></div>
+              <div class="input-summary-item"><span>Activity:</span><span id="input-activity-display">--</span></div>
+              <div class="input-summary-item"><span>Height:</span><span id="input-height-display">--</span></div>
+            </div>
+          </div>
+
+          <!-- Actionable Tips -->
+          <div class="tips-section">
+            <h4>Tips Based on Your Results</h4>
+            <div class="tips-grid" id="tips-grid">
+              <div class="tip-card">
+                <div class="tip-icon">🎯</div>
+                <div class="tip-content">
+                  <div class="tip-title" id="tip-1-title">Loading...</div>
+                  <div class="tip-text" id="tip-1-text">Calculating personalized tip...</div>
+                </div>
+              </div>
+              <div class="tip-card">
+                <div class="tip-icon">⏱️</div>
+                <div class="tip-content">
+                  <div class="tip-title" id="tip-2-title">Loading...</div>
+                  <div class="tip-text" id="tip-2-text">Calculating personalized tip...</div>
+                </div>
+              </div>
+              <div class="tip-card">
+                <div class="tip-icon">🔥</div>
+                <div class="tip-content">
+                  <div class="tip-title" id="tip-3-title">Loading...</div>
+                  <div class="tip-text" id="tip-3-text">Calculating personalized tip...</div>
+                </div>
+              </div>
+              <div class="tip-card">
+                <div class="tip-icon">📈</div>
+                <div class="tip-content">
+                  <div class="tip-title" id="tip-4-title">Loading...</div>
+                  <div class="tip-text" id="tip-4-text">Calculating personalized tip...</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- What This Means -->
+          <div class="interpretation-section">
+            <h4><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>What This Means</h4>
+            <p id="interpretation-text">Your results will appear here with personalized insights based on your step count and activity level.</p>
+          </div>
+
+          <!-- Print Button -->
+          <button type="button" class="print-btn" onclick="window.print()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+            Print Results
+          </button>
+        </div>
+      </div>
+      
+      <!-- MILES TO STEPS PANEL -->
+      <div id="panel-miles" class="calc-panel">
+        <div class="form-grid">
+          <div class="form-group">
+            <label class="form-label">Distance</label>
+            <div class="input-group">
+              <input type="number" id="miles-input" class="form-input miles-input" value="5" step="0.1" min="0">
+              <select id="distance-unit" class="form-select">
+                <option value="miles">miles</option>
+                <option value="km">km</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label class="form-label">Activity Type</label>
+            <div class="radio-group">
+              <label class="radio-option"><input type="radio" name="activity2" value="walking" checked><span>🚶 Walking</span></label>
+              <label class="radio-option"><input type="radio" name="activity2" value="running"><span>🏃 Running</span></label>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label class="form-label">Stride Length Method</label>
+            <div class="radio-group">
+              <label class="radio-option"><input type="radio" name="stride-method2" value="height" checked><span>Estimate from height</span></label>
+              <label class="radio-option"><input type="radio" name="stride-method2" value="custom"><span>Enter custom stride</span></label>
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Your Height</label>
+              <div class="input-group">
+                <input type="number" id="height-feet2" class="form-input" value="5" min="3" max="8" style="width:60px">
+                <span style="padding:0 0.25rem">ft</span>
+                <input type="number" id="height-inches2" class="form-input" value="6" min="0" max="11" style="width:60px">
+                <span style="padding:0 0.25rem">in</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Custom Stride (optional)</label>
+              <div class="input-group">
+                <input type="number" id="custom-stride2" class="form-input" placeholder="26" step="0.5">
+                <select id="stride-unit2" class="form-select" style="width:80px">
+                  <option value="inches">in</option>
+                  <option value="cm">cm</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <button class="calculate-btn" id="calc-miles-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          Calculate Steps
+        </button>
+        
+        <div class="results-section" id="miles-results">
+          <div class="result-primary">
+            <div class="result-label">Number of Steps</div>
+            <div class="result-value" id="steps-value">--</div>
+            <div class="result-sublabel" id="miles-input-display">-- miles</div>
+          </div>
+
+          <div class="progress-container">
+            <div class="progress-header">
+              <span class="progress-title">Compared to 10,000 Steps Goal</span>
+              <span class="progress-value" id="m2s-goal-percent">--%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" id="m2s-goal-fill" style="width:0%"></div>
+            </div>
+            <div class="progress-note" id="m2s-goal-note">See how your distance compares</div>
+          </div>
+
+          <!-- Key Results Summary Table -->
+          <div class="results-table-section">
+            <h4><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>Your Key Results</h4>
+            <table class="results-summary-table">
+              <tbody>
+                <tr><td>Steps Needed</td><td id="m2s-summary-steps">--</td></tr>
+                <tr><td>Distance</td><td id="m2s-summary-distance">--</td></tr>
+                <tr><td>Steps per Mile</td><td id="m2s-summary-spm">--</td></tr>
+                <tr><td>Steps per KM</td><td id="m2s-summary-spkm">--</td></tr>
+                <tr><td>Your Stride Length</td><td id="m2s-summary-stride">--</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Input Summary -->
+          <div class="input-summary">
+            <div class="input-summary-title">Your Inputs</div>
+            <div class="input-summary-grid">
+              <div class="input-summary-item"><span>Distance:</span><span id="m2s-input-distance">--</span></div>
+              <div class="input-summary-item"><span>Activity:</span><span id="m2s-input-activity">--</span></div>
+              <div class="input-summary-item"><span>Height:</span><span id="m2s-input-height">--</span></div>
+            </div>
+          </div>
+
+          <!-- What This Means -->
+          <div class="interpretation-section">
+            <h4><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>What This Means</h4>
+            <p id="m2s-interpretation-text">Your results will appear here with personalized insights based on your distance goal.</p>
+          </div>
+
+          <!-- Print Button -->
+          <button type="button" class="print-btn" onclick="window.print()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+            Print Results
+          </button>
+        </div>
+      </div>
+      
+      <!-- STEPS PER MILE PANEL -->
+      <div id="panel-spm" class="calc-panel">
+        <div class="form-grid">
+          <div class="form-group">
+            <label class="form-label">Activity Type</label>
+            <div class="radio-group">
+              <label class="radio-option"><input type="radio" name="activity3" value="walking" checked><span>🚶 Walking</span></label>
+              <label class="radio-option"><input type="radio" name="activity3" value="running"><span>🏃 Running</span></label>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label class="form-label">Stride Length Method</label>
+            <div class="radio-group">
+              <label class="radio-option"><input type="radio" name="stride-method3" value="height" checked><span>Estimate from height</span></label>
+              <label class="radio-option"><input type="radio" name="stride-method3" value="custom"><span>Enter custom stride</span></label>
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Your Height</label>
+              <div class="input-group">
+                <input type="number" id="height-feet3" class="form-input" value="5" min="3" max="8" style="width:60px">
+                <span style="padding:0 0.25rem">ft</span>
+                <input type="number" id="height-inches3" class="form-input" value="6" min="0" max="11" style="width:60px">
+                <span style="padding:0 0.25rem">in</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Custom Stride (optional)</label>
+              <div class="input-group">
+                <input type="number" id="custom-stride3" class="form-input" placeholder="26" step="0.5">
+                <select id="stride-unit3" class="form-select" style="width:80px">
+                  <option value="inches">in</option>
+                  <option value="cm">cm</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <button class="calculate-btn" id="calc-spm-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/></svg>
+          Calculate Steps per Mile
+        </button>
+        
+        <div class="results-section" id="spm-results">
+          <div class="result-primary">
+            <div class="result-label">Steps per Mile</div>
+            <div class="result-value" id="spm-value">--</div>
+            <div class="result-sublabel" id="spm-activity">Walking</div>
+          </div>
+
+          <!-- Key Results Summary Table -->
+          <div class="results-table-section">
+            <h4><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>Your Key Results</h4>
+            <table class="results-summary-table">
+              <tbody>
+                <tr><td>Steps per Mile</td><td id="spm-summary-spm">--</td></tr>
+                <tr><td>Steps per Kilometer</td><td id="spm-summary-spkm">--</td></tr>
+                <tr><td>Stride Length</td><td id="spm-summary-stride">--</td></tr>
+                <tr><td>Activity Type</td><td id="spm-summary-activity">--</td></tr>
+                <tr><td>Height</td><td id="spm-summary-height">--</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Input Summary -->
+          <div class="input-summary">
+            <div class="input-summary-title">Your Inputs</div>
+            <div class="input-summary-grid">
+              <div class="input-summary-item"><span>Activity:</span><span id="spm-input-activity">--</span></div>
+              <div class="input-summary-item"><span>Height:</span><span id="spm-input-height">--</span></div>
+              <div class="input-summary-item"><span>Stride Source:</span><span id="spm-input-source">--</span></div>
+            </div>
+          </div>
+
+          <!-- What This Means -->
+          <div class="interpretation-section">
+            <h4><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>What This Means</h4>
+            <p id="spm-interpretation-text">Your personalized steps per mile will help you translate fitness tracker data into meaningful distance measurements.</p>
+          </div>
+
+          <div class="quick-ref" style="margin-top:1.5rem">
+            <div class="quick-ref-title">Steps per Mile by Height Reference</div>
+            <div class="table-responsive">
+              <table class="data-table">
+                <thead><tr><th>Height</th><th>Stride (Walk/Run)</th><th>Walking</th><th>Running</th></tr></thead>
+                <tbody id="spm-table-body"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Print Button -->
+          <button type="button" class="print-btn" onclick="window.print()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+            Print Results
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <p style="text-align:center;font-size:0.8rem;color:var(--gray-500);margin:1rem 0 0 0">Calculator last updated: January 2026 • Data verified: January 2026</p>
+
+    <div class="content-narrow">
+    <!-- Quick Reference -->
+    <section class="content-section">
+      <h2>Steps to Miles Quick Reference</h2>
+      <p>Common step counts and their equivalent distances (based on average stride length):</p>
+      <div class="table-responsive">
+        <table class="data-table">
+          <thead><tr><th>Steps</th><th>Walking (Miles)</th><th>Walking (KM)</th><th>Running (Miles)</th><th>Running (KM)</th></tr></thead>
+          <tbody>
+            <tr><td><strong>5,000</strong></td><td>2.1 mi</td><td>3.4 km</td><td>2.8 mi</td><td>4.5 km</td></tr>
+            <tr class="highlight"><td><strong>10,000</strong></td><td>4.2 mi</td><td>6.8 km</td><td>5.6 mi</td><td>9.0 km</td></tr>
+            <tr><td><strong>11,000</strong></td><td>4.6 mi</td><td>7.4 km</td><td>6.2 mi</td><td>10.0 km</td></tr>
+            <tr><td><strong>13,000</strong></td><td>5.5 mi</td><td>8.9 km</td><td>7.3 mi</td><td>11.7 km</td></tr>
+            <tr><td><strong>15,000</strong></td><td>6.3 mi</td><td>10.1 km</td><td>8.4 mi</td><td>13.5 km</td></tr>
+            <tr><td><strong>20,000</strong></td><td>8.4 mi</td><td>13.5 km</td><td>11.2 mi</td><td>18.0 km</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:0.875rem;color:var(--gray-500)">*Based on average stride of 2.2 ft (walking) and 2.75 ft (running) for 5'6" person.</p>
+
+      <h3 style="margin-top:2rem">Steps per Mile by Height</h3>
+      <p>Your height directly affects your stride length, which determines how many steps you take per mile. Use this table to find your approximate steps per mile:</p>
+      <div class="table-responsive">
+        <table class="data-table">
+          <thead><tr><th>Height</th><th>Walking Stride</th><th>Steps/Mile (Walking)</th><th>Running Stride</th><th>Steps/Mile (Running)</th></tr></thead>
+          <tbody>
+            <tr><td><strong>5'0"</strong></td><td>24.9 in</td><td>2,543</td><td>31.2 in</td><td>2,031</td></tr>
+            <tr><td><strong>5'2"</strong></td><td>25.7 in</td><td>2,463</td><td>32.2 in</td><td>1,967</td></tr>
+            <tr><td><strong>5'4"</strong></td><td>26.6 in</td><td>2,386</td><td>33.3 in</td><td>1,905</td></tr>
+            <tr class="highlight"><td><strong>5'6"</strong></td><td>27.4 in</td><td>2,313</td><td>34.3 in</td><td>1,846</td></tr>
+            <tr><td><strong>5'8"</strong></td><td>28.2 in</td><td>2,245</td><td>35.4 in</td><td>1,791</td></tr>
+            <tr><td><strong>5'10"</strong></td><td>29.1 in</td><td>2,179</td><td>36.4 in</td><td>1,739</td></tr>
+            <tr><td><strong>6'0"</strong></td><td>29.9 in</td><td>2,117</td><td>37.4 in</td><td>1,690</td></tr>
+            <tr><td><strong>6'2"</strong></td><td>30.7 in</td><td>2,059</td><td>38.5 in</td><td>1,644</td></tr>
+            <tr><td><strong>6'4"</strong></td><td>31.6 in</td><td>2,004</td><td>39.5 in</td><td>1,601</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:0.875rem;color:var(--gray-500)">*Walking stride = height × 0.415. Running stride = height × 0.52. Values derived from biomechanical research.</p>
+
+      <!-- Pro Tip Box 1 -->
+      <div style="background:linear-gradient(135deg, var(--gray-100) 0%, var(--gray-50) 100%);border:1px solid var(--gray-200);padding:1rem 1.25rem;border-radius:var(--radius-md);margin:1.5rem 0">
+        <p style="margin:0;font-size:0.95rem"><strong style="color:var(--primary)">Pro Tip:</strong> If your fitness tracker shows significantly different steps per mile than this table, you may need to calibrate it. Walk a known distance (like a quarter-mile track) and compare your actual step count to these estimates.</p>
+      </div>
+
+      <h3 style="margin-top:2rem">Miles to Steps Conversion Table</h3>
+      <p>Planning to walk or run a specific distance? Find out how many steps you'll need based on your height:</p>
+      <div class="table-responsive">
+        <table class="data-table">
+          <thead><tr><th>Distance</th><th>Steps (5'4" Walk)</th><th>Steps (5'8" Walk)</th><th>Steps (6'0" Walk)</th><th>Steps (Running Avg)</th></tr></thead>
+          <tbody>
+            <tr><td><strong>1 mile</strong></td><td>2,386</td><td>2,245</td><td>2,117</td><td>1,750</td></tr>
+            <tr><td><strong>2 miles</strong></td><td>4,773</td><td>4,489</td><td>4,235</td><td>3,500</td></tr>
+            <tr><td><strong>3 miles</strong></td><td>7,159</td><td>6,734</td><td>6,352</td><td>5,250</td></tr>
+            <tr><td><strong>5K (3.1 mi)</strong></td><td>7,398</td><td>6,959</td><td>6,564</td><td>5,426</td></tr>
+            <tr><td><strong>5 miles</strong></td><td>11,932</td><td>11,223</td><td>10,587</td><td>8,750</td></tr>
+            <tr class="highlight"><td><strong>10K (6.2 mi)</strong></td><td>14,796</td><td>13,919</td><td>13,128</td><td>10,852</td></tr>
+            <tr><td><strong>Half Marathon</strong></td><td>31,292</td><td>29,437</td><td>27,764</td><td>22,946</td></tr>
+            <tr><td><strong>Marathon</strong></td><td>62,584</td><td>58,874</td><td>55,528</td><td>45,893</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:0.875rem;color:var(--gray-500)">*Running values based on average runner at 5'8". Individual results vary by height and stride.</p>
+    </section>
+
+    <!-- Formula Reference -->
+    <section class="content-section">
+      <h2>Formula Reference: How the Calculations Work</h2>
+      <p>This calculator uses scientifically-based formulas derived from biomechanical research on human gait. For a deep dive, see our <a href="/blog/steps-to-miles-formula/">steps to miles formula</a> guide. Here are the exact formulas and constants used in every calculation.</p>
+
+      <h3>Core Formula: Steps to Distance</h3>
+      <div style="background:var(--gray-900);padding:1.5rem;border-radius:var(--radius-lg);margin:1.5rem 0">
+        <div style="font-family:var(--font-mono);font-size:1.1rem;color:var(--primary-light);text-align:center;margin-bottom:1rem">Miles = (Steps × Stride Length in Feet) ÷ 5,280</div>
+        <div style="font-size:0.9rem;color:var(--gray-300)">
+          <p style="margin:0.5rem 0"><strong>Steps:</strong> Your total step count from a fitness tracker or manual count</p>
+          <p style="margin:0.5rem 0"><strong>Stride Length:</strong> The distance covered with each step (in feet)</p>
+          <p style="margin:0.5rem 0"><strong>5,280:</strong> The number of feet in one mile (constant)</p>
+        </div>
+      </div>
+
+      <h3>Stride Length Estimation Formula</h3>
+      <p>If you don't know your exact stride length, estimate it from your height using these multipliers:</p>
+      <div style="background:var(--gray-900);padding:1.5rem;border-radius:var(--radius-lg);margin:1.5rem 0">
+        <div style="font-family:var(--font-mono);font-size:1rem;color:var(--primary-light)">
+          <p style="margin:0.5rem 0">Walking Stride = Height (in feet) × <strong>0.415</strong></p>
+          <p style="margin:0.5rem 0">Running Stride = Height (in feet) × <strong>0.52</strong></p>
+        </div>
+        <div style="font-size:0.9rem;color:var(--gray-300);margin-top:1rem">
+          <p style="margin:0.5rem 0"><strong>0.415 (41.5%):</strong> Average walking stride as percentage of height</p>
+          <p style="margin:0.5rem 0"><strong>0.52 (52%):</strong> Average running stride as percentage of height</p>
+          <p style="margin:0.5rem 0">Running stride is ~25% longer than walking due to the flight phase</p>
+        </div>
+      </div>
+
+      <h3>Reverse Formula: Distance to Steps</h3>
+      <div style="background:var(--gray-900);padding:1.5rem;border-radius:var(--radius-lg);margin:1.5rem 0">
+        <div style="font-family:var(--font-mono);font-size:1.1rem;color:var(--primary-light);text-align:center;margin-bottom:1rem">Steps = (Miles × 5,280) ÷ Stride Length in Feet</div>
+        <div style="font-size:0.9rem;color:var(--gray-300)">
+          <p style="margin:0.5rem 0">This is the inverse of the steps-to-miles formula, used by Tab 2</p>
+        </div>
+      </div>
+
+      <h3>Steps per Mile Formula</h3>
+      <div style="background:var(--gray-900);padding:1.5rem;border-radius:var(--radius-lg);margin:1.5rem 0">
+        <div style="font-family:var(--font-mono);font-size:1.1rem;color:var(--primary-light);text-align:center;margin-bottom:1rem">Steps per Mile = 5,280 ÷ Stride Length in Feet</div>
+        <div style="font-size:0.9rem;color:var(--gray-300)">
+          <p style="margin:0.5rem 0">This gives you your personal steps-per-mile ratio</p>
+        </div>
+      </div>
+
+      <h3>Worked Example Calculation</h3>
+      <p>Let's walk through a complete calculation for a 5'8" person who walked 10,000 steps:</p>
+      <div style="background:var(--gray-100);padding:1.5rem;border-radius:var(--radius-lg);margin:1.5rem 0">
+        <p style="margin:0.5rem 0"><strong>Step 1:</strong> Convert height to feet: 5'8" = 5 + (8÷12) = 5.667 feet</p>
+        <p style="margin:0.5rem 0"><strong>Step 2:</strong> Calculate walking stride: 5.667 × 0.415 = 2.352 feet (28.2 inches)</p>
+        <p style="margin:0.5rem 0"><strong>Step 3:</strong> Calculate distance: (10,000 × 2.352) ÷ 5,280 = <strong>4.45 miles</strong></p>
+        <p style="margin:0.5rem 0"><strong>Step 4:</strong> Convert to km: 4.45 × 1.609 = <strong>7.17 km</strong></p>
+      </div>
+
+      <!-- Pro Tip Box 2 -->
+      <div style="background:linear-gradient(135deg, var(--gray-100) 0%, var(--gray-50) 100%);border:1px solid var(--gray-200);padding:1rem 1.25rem;border-radius:var(--radius-md);margin:1.5rem 0">
+        <p style="margin:0;font-size:0.95rem"><strong style="color:var(--primary)">Pro Tip:</strong> For the most accurate results, measure your actual stride length by walking 20 steps on flat ground and dividing the total distance by 20. Then use the "custom stride" option in the calculator instead of the height-based estimate.</p>
+      </div>
+
+      <h3>Additional Estimation Formulas</h3>
+      <div class="table-responsive">
+        <table class="data-table">
+          <thead><tr><th>Calculation</th><th>Formula</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Calories (Walking)</strong></td><td>Steps × 0.04</td><td>Rough estimate, varies by weight</td></tr>
+            <tr><td><strong>Calories (Running)</strong></td><td>Steps × 0.06</td><td>Rough estimate, varies by intensity</td></tr>
+            <tr><td><strong>Time (Walking)</strong></td><td>Miles ÷ 3.0 mph</td><td>Assumes moderate walking pace</td></tr>
+            <tr><td><strong>Time (Running)</strong></td><td>Miles ÷ 6.0 mph</td><td>Assumes 10-minute mile pace</td></tr>
+            <tr><td><strong>km from miles</strong></td><td>Miles × 1.60934</td><td>Standard conversion factor</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Constants Used in This Calculator</h3>
+      <div class="table-responsive">
+        <table class="data-table">
+          <thead><tr><th>Constant</th><th>Value</th><th>Purpose</th></tr></thead>
+          <tbody>
+            <tr><td><strong>FEET_PER_MILE</strong></td><td>5,280</td><td>Converting feet to miles</td></tr>
+            <tr><td><strong>KM_PER_MILE</strong></td><td>1.60934</td><td>Converting miles to kilometers</td></tr>
+            <tr><td><strong>WALKING_STRIDE_PERCENT</strong></td><td>0.415</td><td>Stride as % of height (walking)</td></tr>
+            <tr><td><strong>RUNNING_STRIDE_PERCENT</strong></td><td>0.52</td><td>Stride as % of height (running)</td></tr>
+            <tr><td><strong>AVG_WALKING_STEPS_PER_MILE</strong></td><td>2,100</td><td>Population average reference</td></tr>
+            <tr><td><strong>AVG_RUNNING_STEPS_PER_MILE</strong></td><td>1,600</td><td>Population average reference</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Understanding Your Results -->
+    <section class="content-section">
+      <h2>Understanding Your Results</h2>
+      <p>After using the calculator, you'll see several metrics. Here's what each number means and how to interpret it.</p>
+
+      <h3>Distance (Miles and Kilometers)</h3>
+      <p>This is the estimated ground distance covered by your steps. The calculation accounts for your stride length, so the same step count produces different distances for different people.</p>
+      <ul>
+        <li><strong>1-2 miles:</strong> Short distance, equivalent to a 15-40 minute walk</li>
+        <li><strong>3-4 miles:</strong> Moderate distance, typical of an hour of walking</li>
+        <li><strong>5+ miles:</strong> Significant distance, represents substantial daily activity</li>
+      </ul>
+
+      <h3>Steps per Mile</h3>
+      <p>This is your personal ratio based on stride length. The average adult takes <a href="/blog/how-many-steps-in-a-mile/">2,000-2,500 steps per mile</a> walking and 1,400-1,700 steps running. See our <a href="/blog/steps-per-mile-chart/">steps per mile chart</a> for values by height.</p>
+      <ul>
+        <li><strong>2,400+ steps/mile:</strong> Shorter stride (shorter height or slower pace)</li>
+        <li><strong>2,000-2,400 steps/mile:</strong> Average walking stride</li>
+        <li><strong>Under 2,000 steps/mile:</strong> Longer stride (taller height) or running</li>
+      </ul>
+
+      <h3>Calories Burned (Estimate)</h3>
+      <p>This is a rough approximation based on average calorie expenditure per step. Actual calories vary significantly based on body weight, walking speed, incline, and individual metabolism.</p>
+      <ul>
+        <li><strong>Under 200 cal:</strong> Light activity session</li>
+        <li><strong>200-400 cal:</strong> Moderate workout equivalent</li>
+        <li><strong>400+ cal:</strong> Significant calorie expenditure</li>
+      </ul>
+      <p><strong>Important:</strong> For accurate calorie tracking, use a device that measures heart rate or consider your body weight. These estimates are starting points only.</p>
+
+      <h3>Time Estimate</h3>
+      <p>Based on average walking speed (3.0 mph) or running pace (6.0 mph / 10-minute mile). Your actual time varies with pace, terrain, and fitness level.</p>
+
+      <h3>10,000-Step Goal Progress</h3>
+      <p>The progress bar shows how your step count compares to the popular 10,000-step daily target. This benchmark originated from Japanese pedometer marketing in the 1960s but has become a widely-used fitness goal.</p>
+      <ul>
+        <li><strong>Under 50%:</strong> Consider adding more movement to your day</li>
+        <li><strong>50-75%:</strong> Moderately active, on track for health benefits</li>
+        <li><strong>75-100%:</strong> Close to or meeting the common daily goal</li>
+        <li><strong>Over 100%:</strong> Exceeding the standard target—great for fitness</li>
+      </ul>
+      <p><strong>Note:</strong> Research suggests health benefits increase up to about 7,500-10,000 steps daily, with diminishing returns beyond that. Even 5,000 steps provides significant health benefits compared to a sedentary lifestyle.</p>
+
+      <!-- Did You Know Box -->
+      <div style="background:linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);border:1px solid #bae6fd;padding:1rem 1.25rem;border-radius:var(--radius-md);margin:1.5rem 0">
+        <p style="margin:0;font-size:0.95rem"><strong style="color:#0369a1">Did You Know?</strong> The 10,000-step goal originated from a 1965 Japanese marketing campaign for a pedometer called "Manpo-kei" (meaning "10,000 steps meter"). While the number was chosen for marketing rather than science, subsequent research has validated that 7,500-10,000 daily steps does correlate with significant health benefits.</p>
+      </div>
+
+      <h3>Stride Length</h3>
+      <p>Your calculated or estimated <a href="/blog/average-stride-length-by-height/">stride length</a> in inches/centimeters. Compare this to your height:</p>
+      <ul>
+        <li><strong>Walking:</strong> Should be about 41-42% of your height</li>
+        <li><strong>Running:</strong> Should be about 50-52% of your height</li>
+      </ul>
+      <p>If your measured stride differs significantly from these percentages, it may indicate gait patterns worth discussing with a physical therapist if you experience discomfort.</p>
+    </section>
+
+    <!-- Comparison: Steps-Based vs GPS Tracking -->
+    <section class="content-section">
+      <h2>Steps-Based Tracking vs. GPS Distance Tracking</h2>
+      <p>There are two main ways to track walking and running distance: counting steps (pedometers, fitness trackers) and GPS tracking (smartphones, GPS watches). Here's how they compare:</p>
+
+      <div class="table-responsive">
+        <table class="data-table">
+          <thead><tr><th>Factor</th><th>Steps-Based (This Calculator)</th><th>GPS-Based Tracking</th></tr></thead>
+          <tbody>
+            <tr><td><strong>How it works</strong></td><td>Counts steps, estimates distance using stride length</td><td>Tracks actual path via satellite positioning</td></tr>
+            <tr><td><strong>Indoor accuracy</strong></td><td>Works indoors (treadmill, mall walking)</td><td>Poor or no signal indoors</td></tr>
+            <tr><td><strong>Outdoor accuracy</strong></td><td>Good estimate, ±5-15% variance</td><td>Very accurate, ±1-3% variance</td></tr>
+            <tr><td><strong>Battery impact</strong></td><td>Minimal—accelerometer uses little power</td><td>High—GPS significantly drains battery</td></tr>
+            <tr><td><strong>What it measures</strong></td><td>Movement/steps regardless of path</td><td>Actual geographic distance traveled</td></tr>
+            <tr><td><strong>Best for</strong></td><td>Daily activity tracking, step goals</td><td>Route mapping, race training, navigation</td></tr>
+            <tr><td><strong>Winding paths</strong></td><td>Same accuracy regardless of path shape</td><td>May cut corners or lose signal</td></tr>
+            <tr><td><strong>Treadmill use</strong></td><td>Accurate step count, reliable distance</td><td>Shows no movement (stationary position)</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>When to Use Each Method</h3>
+      <ul>
+        <li><strong>Use step-based tracking</strong> for daily fitness monitoring, reaching step goals, indoor exercise, and general health tracking where precise distance isn't critical.</li>
+        <li><strong>Use GPS tracking</strong> for outdoor runs where you need accurate pace feedback, exploring new routes, tracking races, or when you need to know exact distances for training plans.</li>
+        <li><strong>Use both together</strong> for the most complete picture—GPS for route accuracy, steps for total daily activity including indoor movement.</li>
+      </ul>
+    </section>
+
+    <!-- How to Use This Calculator -->
+    <section class="content-section">
+      <h2>How to Use This Calculator</h2>
+      <p>This calculator includes three specialized tools, each designed for a different conversion need. Here's a detailed guide to getting accurate results from each tab.</p>
+
+      <h3>Tab 1: Steps to Miles (Converting Your Step Count to Distance)</h3>
+      <p>Use this tab when you know how many steps you've taken and want to find out the distance covered.</p>
+      <ol>
+        <li><strong>Enter your step count:</strong> Type your total steps in the input field, or use the quick-select buttons (5,000 / 10,000 / 13,000 / 15,000 / 20,000) for common values. Most fitness trackers display your daily steps on the main screen.</li>
+        <li><strong>Select your activity type:</strong> Choose "Walking" for regular walking, hiking, or casual movement. Choose "Running" for jogging, running, or any activity where you have a flight phase (both feet off the ground). Running produces a longer stride, so the same steps cover more distance.</li>
+        <li><strong>Choose your stride method:</strong> Select "Estimate from height" for a quick calculation based on biomechanical averages. Select "Enter custom stride" if you've measured your actual stride length for more precise results.</li>
+        <li><strong>Enter your height or custom stride:</strong> If using height estimation, enter your height in feet and inches. If using custom stride, enter your measured stride length in inches or centimeters.</li>
+        <li><strong>Click "Calculate Miles":</strong> Your results will show distance in miles and kilometers, estimated calories burned, approximate time spent, your stride length, and progress toward the 10,000-step goal.</li>
+      </ol>
+
+      <h3>Tab 2: Miles to Steps (Planning Distance-Based Goals)</h3>
+      <p>Use this tab when you want to know how many steps a specific distance requires—useful for route planning or setting step goals.</p>
+      <ol>
+        <li><strong>Enter the distance:</strong> Type the distance you want to walk or run. This could be a planned route, a fitness goal, or a distance you're curious about.</li>
+        <li><strong>Select the unit:</strong> Choose "miles" or "km" depending on your preference. The calculator converts between them automatically.</li>
+        <li><strong>Select activity type and stride:</strong> Same as Tab 1—choose walking or running, then enter your height or custom stride.</li>
+        <li><strong>Click "Calculate Steps":</strong> You'll see the total steps needed, your steps-per-mile rate, and how this compares to the 10,000-step daily goal.</li>
+      </ol>
+
+      <h3>Tab 3: Steps per Mile (Finding Your Personal Ratio)</h3>
+      <p>Use this tab to calculate your personal steps-per-mile number and see a reference table comparing different heights.</p>
+      <ol>
+        <li><strong>Select activity type:</strong> Walking or running—each has a different stride length.</li>
+        <li><strong>Enter height or custom stride:</strong> Your height determines your estimated stride length, which determines steps per mile.</li>
+        <li><strong>Click "Calculate Steps per Mile":</strong> Results show your steps per mile and kilometer, stride length in both inches and centimeters, and a reference table showing steps per mile for various heights.</li>
+      </ol>
+
+      <h3>Tips for Accurate Results</h3>
+      <ul>
+        <li><strong>Measure your actual stride for best accuracy:</strong> Walk 20 steps at your normal pace on flat ground, measure the total distance, and divide by 20. This accounts for your unique gait pattern.</li>
+        <li><strong>Use the right activity type:</strong> Even light jogging counts as "running" because the stride mechanics differ from walking.</li>
+        <li><strong>Height estimates work well for most people:</strong> The height-based formulas are derived from biomechanical research and provide reasonable estimates for adults with typical proportions.</li>
+        <li><strong>Terrain affects stride length:</strong> The calculator assumes flat ground. Uphill walking shortens stride; downhill may lengthen it. Trail walking typically involves shorter strides than sidewalk walking.</li>
+      </ul>
+
+      <h3>Common Mistakes to Avoid</h3>
+      <ul>
+        <li><strong>Don't mix up walking and running:</strong> Running stride is about 25% longer than walking stride, so using the wrong activity type creates significant errors.</li>
+        <li><strong>Don't forget to update your height:</strong> The calculator defaults to 5'6"—make sure to enter your actual height for personalized results.</li>
+        <li><strong>Don't use running calculations for brisk walking:</strong> Unless you're actually running (with a flight phase), use walking mode even for fast-paced walking.</li>
+        <li><strong>Don't expect exact matches with GPS:</strong> GPS devices measure actual ground distance while this calculator estimates based on step count. Differences of 5-10% are normal.</li>
+      </ul>
+    </section>
+
+    <!-- Real-World Examples -->
+    <section class="content-section">
+      <h2>Real-World Examples</h2>
+      <p>Here are practical scenarios showing how different people use the steps to miles calculator for their specific needs. All calculations use the actual formulas from this calculator.</p>
+
+      <h3>Example 1: Daily Fitness Tracking</h3>
+      <p><strong>Scenario:</strong> Maria is a 5'4" office worker who wears a fitness tracker. She wants to know how far she walks on a typical workday when her tracker shows 8,000 steps.</p>
+      <p><strong>Calculator inputs:</strong> 8,000 steps • Walking • Height: 5'4"</p>
+      <p><strong>Results:</strong> At 5'4", Maria's estimated walking stride is 26.6 inches (2.21 feet). Her 8,000 steps equal approximately <strong>3.35 miles (5.4 km)</strong>. The calculator also shows she's at 80% of the 10,000-step goal with about 2,000 steps (0.84 miles) remaining. Estimated calories: 320 cal. Estimated time: 67 minutes of walking.</p>
+      <p><strong>What this means:</strong> Maria is covering meaningful distance during her workday through accumulated movement—short walks to meetings, lunch breaks, and errands add up to over 3 miles daily.</p>
+
+      <h3>Example 2: Marathon Training Tracking</h3>
+      <p><strong>Scenario:</strong> David is 6'2" and training for a marathon. He completed a 5-mile training run and wants to know how many steps that represents for his training log.</p>
+      <p><strong>Calculator inputs:</strong> Tab 2 (Miles to Steps) • 5 miles • Running • Height: 6'2"</p>
+      <p><strong>Results:</strong> At 6'2", David's running stride is 38.5 inches (3.21 feet), giving him 1,646 steps per mile. His 5-mile run required approximately <strong>8,232 steps</strong>. This is 82% of a 10,000-step goal achieved in just one running session.</p>
+      <p><strong>What this means:</strong> Taller runners take fewer steps to cover the same distance. David's 5-mile run takes significantly fewer steps than it would for a shorter person, which is why step counts alone don't tell the whole fitness story.</p>
+
+      <h3>Example 3: Reaching the 10,000-Step Goal</h3>
+      <p><strong>Scenario:</strong> Emma is 5'8" and wants to understand what hitting exactly 10,000 steps means for her in terms of actual distance.</p>
+      <p><strong>Calculator inputs:</strong> 10,000 steps • Walking • Height: 5'8"</p>
+      <p><strong>Results:</strong> Emma's walking stride at 5'8" is 28.2 inches (2.35 feet), or 2,245 steps per mile. Her 10,000 steps equal approximately <strong>4.45 miles (7.17 km)</strong>. Estimated calories burned: 400 cal. Estimated time: 89 minutes.</p>
+      <p><strong>What this means:</strong> For Emma, the popular 10,000-step goal translates to nearly 4.5 miles of walking—roughly the distance of walking to work and back if she lives about 2.2 miles from the office.</p>
+
+      <h3>Example 4: Commute Distance Awareness</h3>
+      <p><strong>Scenario:</strong> Tom is 5'10" and walks from the parking garage to his office each morning. His tracker shows 1,500 steps each way (3,000 round trip). He's curious about the actual distance.</p>
+      <p><strong>Calculator inputs:</strong> 3,000 steps • Walking • Height: 5'10"</p>
+      <p><strong>Results:</strong> Tom's walking stride is 29.1 inches (2.42 feet). His 3,000 daily commute steps equal approximately <strong>1.38 miles (2.2 km)</strong>. One-way distance: about 0.69 miles.</p>
+      <p><strong>What this means:</strong> Tom's parking-to-office walk gives him nearly 1.4 miles of built-in daily activity before he does any intentional exercise. Over a 5-day work week, that's almost 7 miles just from commuting on foot.</p>
+
+      <h3>Example 5: Senior Fitness Monitoring</h3>
+      <p><strong>Scenario:</strong> Lisa is a 5'2" retiree focused on staying active. Her doctor recommended walking as low-impact exercise. She averaged 6,000 steps today and wants to track her progress.</p>
+      <p><strong>Calculator inputs:</strong> 6,000 steps • Walking • Height: 5'2"</p>
+      <p><strong>Results:</strong> At 5'2", Lisa's walking stride is 25.7 inches (2.14 feet), or 2,463 steps per mile. Her 6,000 steps equal approximately <strong>2.44 miles (3.9 km)</strong>. Estimated calories: 240 cal. She's at 60% of the 10,000-step goal.</p>
+      <p><strong>What this means:</strong> Lisa's 6,000 steps represent meaningful activity—nearly 2.5 miles of walking. For older adults, research suggests health benefits begin around 4,000-6,000 daily steps, so Lisa is in a healthy activity range.</p>
+
+      <h3>Example 6: Hiking Trip Planning</h3>
+      <p><strong>Scenario:</strong> James is 6'0" and planning a 3-mile nature trail hike. He wants to know approximately how many steps to expect so he can plan snacks and rest breaks.</p>
+      <p><strong>Calculator inputs:</strong> Tab 2 (Miles to Steps) • 3 miles • Walking • Height: 6'0"</p>
+      <p><strong>Results:</strong> At 6'0", James has a walking stride of 29.9 inches (2.49 feet), giving him 2,120 steps per mile. A 3-mile hike will require approximately <strong>6,361 steps</strong>.</p>
+      <p><strong>What this means:</strong> James can expect his 3-mile hike to take roughly 6,400 steps. Note that uneven terrain typically shortens stride length, so the actual step count may be 10-20% higher on a trail compared to flat ground.</p>
+
+      <h3>Example 7: Run/Walk Interval Training</h3>
+      <p><strong>Scenario:</strong> Aisha is 5'6" and does run/walk intervals. During her morning workout, she ran 4,000 steps and walked 3,000 steps. She wants to know her total distance.</p>
+      <p><strong>Calculator inputs:</strong> Two separate calculations—4,000 steps running + 3,000 steps walking at 5'6"</p>
+      <p><strong>Results:</strong> Running stride at 5'6": 34.3 inches (2.86 feet) → 4,000 running steps = 2.17 miles. Walking stride: 27.4 inches (2.28 feet) → 3,000 walking steps = 1.30 miles. <strong>Total: 3.47 miles (5.6 km)</strong>.</p>
+      <p><strong>What this means:</strong> Aisha covered nearly 3.5 miles in her interval workout. The running portions covered more ground per step—her 4,000 running steps went farther than her 3,000 walking steps despite being fewer steps.</p>
+
+      <h3>Example 8: Weight Loss Program Tracking</h3>
+      <p><strong>Scenario:</strong> Carlos is 5'9" and his nutritionist suggested walking 5 miles daily as part of a weight management program. He needs to know his daily step target.</p>
+      <p><strong>Calculator inputs:</strong> Tab 2 (Miles to Steps) • 5 miles • Walking • Height: 5'9"</p>
+      <p><strong>Results:</strong> At 5'9", Carlos has a walking stride of 28.6 inches (2.38 feet), or 2,217 steps per mile. His 5-mile daily goal requires approximately <strong>11,084 steps</strong>.</p>
+      <p><strong>What this means:</strong> Carlos now has a concrete step target—about 11,100 steps daily—that he can track with his fitness device. This is slightly above the popular 10,000-step target, requiring an extra mile of walking.</p>
+    </section>
+
+    <!-- When to Use This Calculator -->
+    <section class="content-section">
+      <h2>When to Use This Calculator</h2>
+      <p>This steps to miles calculator serves a variety of practical purposes. Here are the situations where it's most useful:</p>
+
+      <h3>1. Translating Fitness Tracker Data</h3>
+      <p>If your smartwatch or pedometer shows step counts but you think in terms of miles or kilometers, use this calculator to translate your daily steps into meaningful distance measurements. This helps you understand exactly how much ground you're covering.</p>
+
+      <h3>2. Setting Personalized Step Goals</h3>
+      <p>Rather than following generic advice like "walk 10,000 steps," use the Miles to Steps tab to set goals based on actual distances. Want to walk 3 miles daily? Find out exactly how many steps that means for your height and stride.</p>
+
+      <h3>3. Verifying Fitness Device Accuracy</h3>
+      <p>If you suspect your fitness tracker is over- or under-counting, walk a known distance (like a measured track) and compare the step count to this calculator's estimate. Significant differences might indicate calibration issues.</p>
+
+      <h3>4. Planning Walking Routes</h3>
+      <p>When planning a walking route using a map application, you get distance but not step counts. Use this calculator to estimate how many steps different route options will require, helping you choose routes that match your fitness goals.</p>
+
+      <h3>5. Understanding Health Recommendations</h3>
+      <p>Health guidelines sometimes reference steps (like "10,000 steps daily") and sometimes reference distance (like "walk 30 minutes" or "2-3 miles daily"). This calculator bridges these different metrics so you can understand recommendations in whichever format makes sense to you.</p>
+
+      <h3>6. Tracking Progress Over Time</h3>
+      <p>By converting steps to distance consistently, you can track your walking progress in miles or kilometers across weeks and months. This makes it easier to set distance-based milestones like "walk 100 miles this month."</p>
+
+      <h3>7. Comparing Walking vs. Running Efficiency</h3>
+      <p>Use the Steps per Mile tab to understand how your activity type affects distance coverage. This is useful for planning mixed workouts or understanding why your running sessions log fewer steps than walking sessions despite covering similar distances.</p>
+
+      <h3>8. Calibrating Treadmill Step Counts</h3>
+      <p>Treadmills typically show distance but not steps, while fitness trackers show steps but may be less accurate on treadmills. Use this calculator to cross-reference the distance displayed on your treadmill with expected step counts.</p>
+
+      <h3>Who Benefits Most From This Tool?</h3>
+      <ul>
+        <li><strong>Fitness enthusiasts</strong> tracking daily activity and working toward specific step or distance goals</li>
+        <li><strong>People starting a walking program</strong> who need to translate step-based guidance into actionable distance targets</li>
+        <li><strong>Athletes and runners</strong> who want to understand step cadence and stride efficiency</li>
+        <li><strong>Health-conscious individuals</strong> following doctor or nutritionist recommendations</li>
+        <li><strong>Anyone curious</strong> about the relationship between their step count and actual distance traveled</li>
+      </ul>
+    </section>
+
+    <!-- Step Goals Ladder Chart -->
+    <section class="content-section">
+      <h2>Step Goals Ladder: How Far Each Goal Takes You</h2>
+      <p>Wondering which step goal is right for you? This chart shows the approximate distance covered at each popular step target (based on average 5'6" walking stride).</p>
+      <div class="chart-container">
+        <div class="chart-bar-group">
+          <div class="chart-bar-row">
+            <span class="chart-bar-label"><a href="/blog/10000-steps-to-miles/" style="color:inherit;text-decoration:none">5,000 steps</a></span>
+            <div class="chart-bar-track"><div class="chart-bar-fill orange" style="width:25%"></div></div>
+            <span class="chart-bar-value">2.1 mi</span>
+          </div>
+          <div class="chart-bar-row">
+            <span class="chart-bar-label"><a href="/blog/10000-steps-to-miles/" style="color:inherit;text-decoration:none">10,000 steps</a></span>
+            <div class="chart-bar-track"><div class="chart-bar-fill orange highlighted" style="width:50%"></div></div>
+            <span class="chart-bar-value">4.2 mi</span>
+          </div>
+          <div class="chart-bar-row">
+            <span class="chart-bar-label"><a href="/blog/11000-steps-to-miles/" style="color:inherit;text-decoration:none">11,000 steps</a></span>
+            <div class="chart-bar-track"><div class="chart-bar-fill blue" style="width:55%"></div></div>
+            <span class="chart-bar-value">4.6 mi</span>
+          </div>
+          <div class="chart-bar-row">
+            <span class="chart-bar-label"><a href="/blog/13000-steps-to-miles/" style="color:inherit;text-decoration:none">13,000 steps</a></span>
+            <div class="chart-bar-track"><div class="chart-bar-fill blue" style="width:65%"></div></div>
+            <span class="chart-bar-value">5.5 mi</span>
+          </div>
+          <div class="chart-bar-row">
+            <span class="chart-bar-label"><a href="/blog/15000-steps-to-miles/" style="color:inherit;text-decoration:none">15,000 steps</a></span>
+            <div class="chart-bar-track"><div class="chart-bar-fill green" style="width:75%"></div></div>
+            <span class="chart-bar-value">6.3 mi</span>
+          </div>
+          <div class="chart-bar-row">
+            <span class="chart-bar-label"><a href="/blog/20000-steps-to-miles/" style="color:inherit;text-decoration:none">20,000 steps</a></span>
+            <div class="chart-bar-track"><div class="chart-bar-fill amber" style="width:100%"></div></div>
+            <span class="chart-bar-value">8.4 mi</span>
+          </div>
+        </div>
+      </div>
+      <p style="font-size:0.875rem;color:var(--gray-500);margin-top:0.5rem">*Walking distances based on average stride for a 5'6" person. Click any step goal to learn more.</p>
+    </section>
+
+    <!-- Related Guides -->
+    <section class="content-section">
+      <h2>Related Guides</h2>
+      <p>Explore our in-depth guides for more detailed information about step counting, stride length, and fitness tracking.</p>
+      <div class="blog-grid" style="margin-top:1.5rem">
+        <article class="blog-card"><div class="blog-card-content"><p class="blog-card-meta">Most Popular</p><h3><a href="/blog/10000-steps-to-miles/">How Many Miles is 10,000 Steps?</a></h3><p>Complete guide to the 10K step goal, including health benefits, how far it actually is by height, and tips to reach it daily.</p></div></article>
+        <article class="blog-card"><div class="blog-card-content"><p class="blog-card-meta">Reference</p><h3><a href="/blog/how-many-steps-in-a-mile/">How Many Steps in a Mile?</a></h3><p>Detailed breakdown of steps per mile for walking and running, with tables by height and activity type.</p></div></article>
+        <article class="blog-card"><div class="blog-card-content"><p class="blog-card-meta">Chart</p><h3><a href="/blog/steps-per-mile-chart/">Steps per Mile Chart</a></h3><p>Comprehensive reference chart showing steps per mile based on height, stride length, and activity type.</p></div></article>
+        <article class="blog-card"><div class="blog-card-content"><p class="blog-card-meta">Formula</p><h3><a href="/blog/steps-to-miles-formula/">Steps to Miles Formula</a></h3><p>The mathematical formulas behind step-to-distance conversion, with worked examples and scientific background.</p></div></article>
+        <article class="blog-card"><div class="blog-card-content"><p class="blog-card-meta">Guide</p><h3><a href="/blog/average-stride-length-by-height/">Stride Length by Height</a></h3><p>How to estimate your stride length from your height, plus a table of typical stride lengths for various heights.</p></div></article>
+        <article class="blog-card"><div class="blog-card-content"><p class="blog-card-meta">Calculator</p><h3><a href="/blog/miles-to-steps-calculator/">Miles to Steps Calculator Guide</a></h3><p>How to convert distance goals into step targets using the miles-to-steps calculator tab.</p></div></article>
+        <article class="blog-card"><div class="blog-card-content"><p class="blog-card-meta">Conversion</p><h3><a href="/blog/11000-steps-to-miles/">How Many Miles is 11,000 Steps?</a></h3><p>Find out how far 11,000 steps takes you and why the 10% boost above 10K makes a meaningful difference for fitness.</p></div></article>
+        <article class="blog-card"><div class="blog-card-content"><p class="blog-card-meta">Conversion</p><h3><a href="/blog/13000-steps-to-miles/">How Many Miles is 13,000 Steps?</a></h3><p>Convert 13,000 steps to miles by height. Learn why 13K steps is a popular intermediate goal between 10K and 15K.</p></div></article>
+        <article class="blog-card"><div class="blog-card-content"><p class="blog-card-meta">Conversion</p><h3><a href="/blog/15000-steps-to-miles/">How Many Miles is 15,000 Steps?</a></h3><p>Discover the distance of 15,000 steps and the added health benefits of pushing beyond the standard 10K target.</p></div></article>
+        <article class="blog-card"><div class="blog-card-content"><p class="blog-card-meta">Conversion</p><h3><a href="/blog/20000-steps-to-miles/">How Many Miles is 20,000 Steps?</a></h3><p>See how far 20,000 steps takes you — nearly 8-10 miles — and learn strategies for reaching this ambitious daily goal.</p></div></article>
+      </div>
+      <p style="margin-top:1.5rem;text-align:center"><a href="/blog/" style="color:var(--primary);font-weight:600">View All Guides →</a></p>
+    </section>
+
+    <!-- Learn More Section -->
+    <section class="content-section" style="background:var(--primary-bg);padding:2rem;border-radius:var(--radius-lg);margin-top:2rem">
+      <h2 style="color:var(--primary)">Master Step Tracking with Our Guides</h2>
+      <p>Whether you're just starting your fitness journey or looking to optimize your daily step goals, our comprehensive guides cover everything you need to know about converting steps to distance.</p>
+      <ul style="margin:1rem 0">
+        <li><strong>New to step tracking?</strong> Start with <a href="/blog/10000-steps-to-miles/">How Many Miles is 10,000 Steps?</a> for a complete overview of the popular fitness goal.</li>
+        <li><strong>Want to set accurate goals?</strong> Use our <a href="/blog/steps-per-mile-chart/">Steps per Mile Chart</a> to find your personal steps-per-mile number.</li>
+        <li><strong>Curious about the math?</strong> Our <a href="/blog/steps-to-miles-formula/">Steps to Miles Formula</a> guide explains the science behind the calculations.</li>
+        <li><strong>Planning longer walks?</strong> Check out <a href="/blog/15000-steps-to-miles/">15,000 Steps to Miles</a> or <a href="/blog/20000-steps-to-miles/">20,000 Steps to Miles</a> for extended activity tracking.</li>
+      </ul>
+    </section>
+
+    <!-- FAQ -->
+    <section class="content-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">How many miles is 10,000 steps?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>For most people, 10,000 steps equals approximately <strong>4 to 5 miles</strong> when walking. The exact distance depends on your stride length, which varies by height. A 5'4" person walks about 4.2 miles in 10,000 steps, while a 6'0" person covers about 4.7 miles. Learn more in our complete guide: <a href="/blog/10000-steps-to-miles/">How Many Miles is 10,000 Steps?</a></p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How many steps are in a mile?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>On average, there are about <strong>2,000-2,500 steps per mile</strong> when walking, and <strong>1,400-1,700 steps per mile</strong> when running. Your exact number depends on your stride length, which is determined by your height and gait. See our detailed breakdown: <a href="/blog/how-many-steps-in-a-mile/">How Many Steps in a Mile?</a></p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How do I measure my stride length?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>Walk 20 steps at your normal pace on flat ground, measure the total distance from your starting point to your ending point, then divide by 20. This gives your average stride length. Alternatively, estimate your stride from your height using our calculator—walking stride is typically about 41.5% of height. For more details, see: <a href="/blog/average-stride-length-by-height/">Stride Length by Height</a></p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Why does activity type (walking vs running) matter?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>Running typically results in a stride about <strong>25% longer</strong> than walking. This is because running includes a "flight phase" where both feet leave the ground, allowing for greater hip extension and longer steps. The same number of steps covers more distance when running—for example, 5,000 running steps might equal 3 miles, while 5,000 walking steps might only cover 2.1 miles.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Is 10,000 steps a day enough for health benefits?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>10,000 steps (about 4-5 miles) is a well-known fitness target, but research shows health benefits increase up to about <strong>7,500-10,000 steps daily</strong>, with diminishing returns beyond that. For older adults, even 4,000-6,000 steps provides significant health benefits. The key is increasing activity from your baseline—any increase in daily steps improves health outcomes compared to a sedentary lifestyle.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How accurate is this calculator compared to my fitness tracker?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>This calculator and fitness trackers use similar methods—both estimate distance from step count using stride length. Differences of <strong>5-10% are normal</strong> and can occur because: (1) fitness trackers may use different stride estimates, (2) your actual stride varies with speed and terrain, and (3) trackers may miss some steps or count extra movements. For the most accurate results, measure your actual stride and use the custom stride input option.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">What formula does this calculator use?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>The calculator uses the formula: <strong>Miles = (Steps × Stride Length in Feet) ÷ 5,280</strong>. Stride length is estimated as 41.5% of height for walking and 52% of height for running—these percentages are based on biomechanical research on human gait. For a deep dive into the math, see: <a href="/blog/steps-to-miles-formula/">Steps to Miles Formula</a></p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Should I consult a doctor before using step goals for fitness?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>This calculator provides estimates for informational purposes only and is not medical advice. If you're starting a new fitness program, have existing health conditions, or have concerns about exercise, consult with a healthcare professional before setting activity goals. They can help you determine appropriate step targets based on your individual health status and fitness level.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How does height affect steps per mile?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>Taller people have longer legs and therefore longer strides, meaning they take <strong>fewer steps to cover the same distance</strong>. For example, a 5'0" person takes about 2,543 steps per mile walking, while a 6'4" person takes only about 2,004 steps per mile—a difference of over 500 steps. See the full breakdown: <a href="/blog/steps-per-mile-chart/">Steps per Mile Chart</a></p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Can I use this calculator for treadmill walking?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="faq-answer"><p>Yes, this calculator works well for treadmill walking. In fact, step-based calculations are often <strong>more reliable than GPS</strong> for indoor exercise since GPS cannot track stationary position changes. Your stride length on a treadmill is typically similar to outdoor walking on flat ground, so the calculator's estimates should be accurate. Compare your treadmill's distance readout with this calculator's estimate to verify your fitness tracker's calibration.</p></div>
+        </div>
+      </div>
+    </section>
+    </div>
+  </div></main>
+
+  <footer class="footer"><div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><a href="/" class="logo"><svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 16v-2.38C4 11.5 2.97 9.5 3 8c.03-1.5.97-3 3-3"/><line x1="4" y1="22" x2="20" y2="22"/></svg><span>Steps to Miles</span></a><p>Free calculator to convert steps to miles and kilometers.</p></div>
+      <div class="footer-nav"><h4>Calculators</h4><ul><li><a href="/">Steps to Miles</a></li><li><a href="/#panel-miles">Miles to Steps</a></li><li><a href="/#panel-spm">Steps per Mile</a></li></ul></div>
+      <div class="footer-nav"><h4>Popular</h4><ul><li><a href="/blog/10000-steps-to-miles/">10,000 Steps</a></li><li><a href="/blog/how-many-steps-in-a-mile/">Steps in a Mile</a></li><li><a href="/blog/steps-per-mile-chart/">Steps per Mile Chart</a></li><li><a href="/blog/15000-steps-to-miles/">15,000 Steps</a></li></ul></div>
+      <div class="footer-nav"><h4>Legal</h4><ul><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms</a></li><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2025-2026 Steps to Miles Calculator. All rights reserved.</p></div>
+  </div></footer>
+  <script src="/assets/js/calculator.js"></script>
+</body>
+</html>
